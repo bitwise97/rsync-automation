@@ -12,8 +12,8 @@ Files added on the server are copied down, and files removed from the server are
 
 ## Setup
 
-1. Copy `rsync.sh` and `sync.conf.example` into the same folder on the client, for example `/home/pi/frame/`.
-2. Rename `sync.conf.example` to `sync.conf` and fill in your values:
+1. Copy `rsync.sh` and `rsync.conf` into the same folder on the client, for example `/home/pi/frame/`.
+2. On `rsync.conf`fill in your values:
 ```sh
    SERVER="192.168.1.100"          # server address
    SRC_DIR="/mnt/MEDIA"            # folder on the server (a mount point)
